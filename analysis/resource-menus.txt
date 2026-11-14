@@ -1,0 +1,48 @@
+### 4_128_1041.bin (678 bytes)
+header: 0000000010008cff67ff72ff99ff2800
+  (&F)
+  (&N)	Ctrl+N
+  (&O)...	Ctrl+O
+  (&S)	Ctrl+S
+  (&A)...
+  (&P)...	Ctrl+P
+  (&V)
+  (&R)...
+  (&X)
+  (&E)
+  (&U)	Ctrl+Z
+  (&T)	Ctrl+X
+  (&C)	Ctrl+C
+  (&P)	Ctrl+V
+  (&V)
+  (&S)
+  (&H)
+  NewGraph 
+  (&A)...
+
+### 4_141_1041.bin (526 bytes)
+header: 000000009000dd30c330d730a230c330
+   : 
+   : 
+  (&Copy)
+  (&Paste)
+  (&X)
+
+### 4_146_1041.bin (456 bytes)
+header: 000000009000dd30c330d730a230c330
+  Popup Display
+  Popup Display
+    Zoom*2
+    Zoom*3
+    Zoom*4
+    Zoom*5
+    Zoom*6
+  Screen to Folder
+  Automatic Capture Screen
+  Caps Lock
+  &Copy
+  &Paste
+  Capture Screen
+  &About
+  E&xit
+

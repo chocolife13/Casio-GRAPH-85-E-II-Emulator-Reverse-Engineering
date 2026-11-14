@@ -1,0 +1,55 @@
+// decompiled from GRAPH85emulator.exe
+// function: Global::FUN_00572e57
+// entry: 00572e57  size: 197
+
+
+undefined4 FUN_00572e57(void)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  int *extraout_ECX;
+  int unaff_EBP;
+  
+  FUN_00555ab8();
+  extraout_ECX[9] = extraout_ECX[9] & 0xffffffbf;
+  *(int *)(unaff_EBP + -0x14) = extraout_ECX[0x25];
+  iVar1 = (**(code **)(*extraout_ECX + 0xd4))();
+  uVar2 = 0;
+  if (iVar1 == 0) {
+    iVar1 = *(int *)(unaff_EBP + 8);
+  }
+  else {
+    *(undefined **)(unaff_EBP + -0x10) = PTR_DAT_005cba44;
+    *(undefined4 *)(unaff_EBP + -4) = 0;
+    if (*(int *)(unaff_EBP + 0xc) == 0) {
+      iVar1 = *(int *)(unaff_EBP + 8);
+      if (iVar1 != 0) {
+        if ((iVar1 == 0xef06) && (extraout_ECX[0x27] != 0)) {
+          iVar1 = 0xf005;
+        }
+        (**(code **)(*extraout_ECX + 0xc4))(iVar1,unaff_EBP + -0x10);
+        uVar2 = *(undefined4 *)(unaff_EBP + -0x10);
+      }
+    }
+    else {
+      uVar2 = *(undefined4 *)(unaff_EBP + 0xc);
+      iVar1 = *(int *)(unaff_EBP + 8);
+    }
+    FUN_00566274(uVar2);
+    iVar3 = FUN_005649b3();
+    if (iVar3 != 0) {
+      *(int *)(iVar3 + 0x94) = iVar1;
+      *(int *)(iVar3 + 0x90) = iVar1;
+    }
+    *(undefined4 *)(unaff_EBP + -4) = 0xffffffff;
+    FUN_00567398();
+  }
+  ExceptionList = *(void **)(unaff_EBP + -0xc);
+  uVar2 = *(undefined4 *)(unaff_EBP + -0x14);
+  extraout_ECX[0x25] = iVar1;
+  extraout_ECX[0x24] = iVar1;
+  return uVar2;
+}
+

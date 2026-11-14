@@ -1,0 +1,27 @@
+// decompiled from GRAPH85emulator.exe
+// function: Global::FUN_0056dd19
+// entry: 0056dd19  size: 117
+
+
+HKEY __thiscall FUN_0056dd19(int param_1,LPCSTR param_2,LPCSTR param_3,undefined4 param_4)
+
+{
+  HKEY hKey;
+  LSTATUS LVar1;
+  CHAR local_14 [16];
+  
+  if (*(int *)(param_1 + 0x7c) == 0) {
+    wsprintfA(local_14,"%d",param_4);
+    hKey = (HKEY)WritePrivateProfileStringA(param_2,param_3,local_14,*(LPCSTR *)(param_1 + 0x90));
+  }
+  else {
+    hKey = (HKEY)GetSectionKey(param_2);
+    if (hKey != (HKEY)0x0) {
+      LVar1 = RegSetValueExA(hKey,param_3,0,4,(BYTE *)&param_4,4);
+      RegCloseKey(hKey);
+      hKey = (HKEY)(uint)(LVar1 == 0);
+    }
+  }
+  return hKey;
+}
+

@@ -1,0 +1,20 @@
+// decompiled from GRAPH85emulator.exe
+// function: Global::FUN_005655b8
+// entry: 005655b8  size: 74
+
+
+void FUN_005655b8(void)
+
+{
+  BOOL BVar1;
+  tagMSG local_20;
+  
+  while( true ) {
+    BVar1 = PeekMessageA(&local_20,(HWND)0x0,0x121,0x121,1);
+    if (BVar1 == 0) break;
+    DispatchMessageA(&local_20);
+  }
+  FUN_0056339a();
+  return;
+}
+

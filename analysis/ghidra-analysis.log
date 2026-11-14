@@ -1,0 +1,149 @@
+openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode)
+INFO  Using log config file: jar:file:/tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/lenny/.config/ghidra/ghidra_11.3.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/lenny/.config/ghidra/ghidra_11.3.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (587 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  Starting cache cleanup: /var/tmp/lenny-ghidra/fscache2 (FileCacheMaintenanceDaemon)  
+INFO  Finished cache cleanup, estimated storage used: 0 (FileCacheMaintenanceDaemon)  
+INFO  Headless startup complete (1288 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 57 extension points (18 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Jython/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /tmp/opencode/tools/ghidra_11.3.2_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/opencode/ghidraproj/Graph85 (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/opencode/ghidraproj/Graph85 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/opencode/ghidraproj/Graph85 (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/lenny/calculator/GRAPH85emulator.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (AutoImporter)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (AutoImporter)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (AutoImporter)  
+INFO  Additional info:
+Loading file:///home/lenny/calculator/GRAPH85emulator.exe?MD5=7f36759f0f038d0888044576d0dc18ce...
+------------------------------------------------
+
+Searching 7 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library COMCTL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library COMDLG32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library WINSPOOL.DRV...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'GRAPH85emulator.exe' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [WINSPOOL.DRV] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+------------------------------------------------
+
+ (AutoImporter)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/lenny/calculator/GRAPH85emulator.exe (HeadlessAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /var/tmp/lenny-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Evicting 3 filesystems from cache (FileSystemInstanceManager)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.434 secs
+    Apply Data Archives                        0.318 secs
+    Call Convention ID                         0.001 secs
+    Call-Fixup Installer                       0.941 secs
+    Create Address Tables                      0.202 secs
+    Create Address Tables - One Time           1.143 secs
+    Create Function                            0.876 secs
+    Data Reference                             0.749 secs
+    Decompiler Switch Analysis                80.767 secs
+    Demangler Microsoft                        0.060 secs
+    Disassemble                                1.593 secs
+    Disassemble Entry Points                   0.056 secs
+    Embedded Media                             0.048 secs
+    External Entry References                  0.000 secs
+    Function ID                                1.619 secs
+    Function Start Pre Search                  0.026 secs
+    Function Start Search                      0.121 secs
+    Function Start Search After Code           0.129 secs
+    Function Start Search After Data           0.050 secs
+    Function Start Search delayed - One Time   0.002 secs
+    Non-Returning Functions - Discovered       0.588 secs
+    Non-Returning Functions - Known            0.005 secs
+    PDB Universal                              0.001 secs
+    Reference                                  1.008 secs
+    Scalar Operand References                  1.231 secs
+    Shared Return Calls                        0.420 secs
+    Stack                                      8.711 secs
+    Subroutine References                      1.165 secs
+    Subroutine References - One Time           0.017 secs
+    Windows x86 PE Exception Handling          1.954 secs
+    Windows x86 PE RTTI Analyzer               0.145 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.010 secs
+    WindowsResourceReference                   3.445 secs
+    X86 Function Callee Purge                  0.665 secs
+    x86 Constant Reference Analyzer            8.697 secs
+-----------------------------------------------------
+     Total Time   117 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/lenny/calculator/GRAPH85emulator.exe (HeadlessAnalyzer)  
+INFO  REPORT: Save succeeded for: /GRAPH85emulator.exe (Graph85:/GRAPH85emulator.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

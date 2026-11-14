@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=CASIO GRAPH 85 Emulator
+Name[fr]=Émulateur CASIO GRAPH 85
+GenericName=Graphing Calculator Emulator
+GenericName[fr]=Émulateur de calculatrice graphique
+Comment=Official CASIO GRAPH 85 emulator (2005) running through Wine
+Comment[fr]=Émulateur officiel CASIO GRAPH 85 (2005) exécuté via Wine
+Exec=graph85
+Icon=graph85
+Terminal=false
+Categories=Utility;Calculator;
+Keywords=calculator;graph;casio;emulator;graph85;
+StartupNotify=true

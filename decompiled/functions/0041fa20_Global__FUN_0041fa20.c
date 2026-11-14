@@ -1,0 +1,124 @@
+// decompiled from GRAPH85emulator.exe
+// function: Global::FUN_0041fa20
+// entry: 0041fa20  size: 1009
+
+
+void FUN_0041fa20(undefined2 *param_1)
+
+{
+  undefined4 *puVar1;
+  undefined1 local_c [12];
+  
+  *param_1 = CONCAT11((char)*param_1,(char)((ushort)*param_1 >> 8));
+  param_1[1] = CONCAT11((char)param_1[1],(char)((ushort)param_1[1] >> 8));
+  param_1[2] = CONCAT11((char)param_1[2],(char)((ushort)param_1[2] >> 8));
+  param_1[3] = CONCAT11((char)param_1[3],(char)((ushort)param_1[3] >> 8));
+  param_1[4] = CONCAT11((char)param_1[4],(char)((ushort)param_1[4] >> 8));
+  param_1[5] = CONCAT11((char)param_1[5],(char)((ushort)param_1[5] >> 8));
+  param_1[6] = CONCAT11((char)param_1[6],(char)((ushort)param_1[6] >> 8));
+  param_1[7] = CONCAT11((char)param_1[7],(char)((ushort)param_1[7] >> 8));
+  param_1[8] = CONCAT11((char)param_1[8],(char)((ushort)param_1[8] >> 8));
+  param_1[9] = CONCAT11((char)param_1[9],(char)((ushort)param_1[9] >> 8));
+  param_1[10] = CONCAT11((char)param_1[10],(char)((ushort)param_1[10] >> 8));
+  param_1[0xb] = CONCAT11((char)param_1[0xb],(char)((ushort)param_1[0xb] >> 8));
+  param_1[0xc] = CONCAT11((char)param_1[0xc],(char)((ushort)param_1[0xc] >> 8));
+  param_1[0xd] = CONCAT11((char)param_1[0xd],(char)((ushort)param_1[0xd] >> 8));
+  param_1[0xe] = CONCAT11((char)param_1[0xe],(char)((ushort)param_1[0xe] >> 8));
+  param_1[0xf] = CONCAT11((char)param_1[0xf],(char)((ushort)param_1[0xf] >> 8));
+  param_1[0x10] = CONCAT11((char)param_1[0x10],(char)((ushort)param_1[0x10] >> 8));
+  param_1[0x11] = CONCAT11((char)param_1[0x11],(char)((ushort)param_1[0x11] >> 8));
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x12);
+  *(undefined4 *)(param_1 + 0x12) = *puVar1;
+  *(undefined4 *)(param_1 + 0x14) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x16) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x18);
+  *(undefined4 *)(param_1 + 0x18) = *puVar1;
+  *(undefined4 *)(param_1 + 0x1a) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x1c) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x1e);
+  *(undefined4 *)(param_1 + 0x1e) = *puVar1;
+  *(undefined4 *)(param_1 + 0x20) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x22) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x24);
+  *(undefined4 *)(param_1 + 0x24) = *puVar1;
+  *(undefined4 *)(param_1 + 0x26) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x28) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x2a);
+  *(undefined4 *)(param_1 + 0x2a) = *puVar1;
+  *(undefined4 *)(param_1 + 0x2c) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x2e) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x30);
+  *(undefined4 *)(param_1 + 0x30) = *puVar1;
+  *(undefined4 *)(param_1 + 0x32) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x34) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x36);
+  *(undefined4 *)(param_1 + 0x36) = *puVar1;
+  *(undefined4 *)(param_1 + 0x38) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x3a) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x3c);
+  *(undefined4 *)(param_1 + 0x3c) = *puVar1;
+  *(undefined4 *)(param_1 + 0x3e) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x40) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x42);
+  *(undefined4 *)(param_1 + 0x42) = *puVar1;
+  *(undefined4 *)(param_1 + 0x44) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x46) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x48);
+  *(undefined4 *)(param_1 + 0x48) = *puVar1;
+  *(undefined4 *)(param_1 + 0x4a) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x4c) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x4e);
+  *(undefined4 *)(param_1 + 0x4e) = *puVar1;
+  *(undefined4 *)(param_1 + 0x50) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x52) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x54);
+  *(undefined4 *)(param_1 + 0x54) = *puVar1;
+  *(undefined4 *)(param_1 + 0x56) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x58) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x5a);
+  *(undefined4 *)(param_1 + 0x5a) = *puVar1;
+  *(undefined4 *)(param_1 + 0x5c) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x5e) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x60);
+  *(undefined4 *)(param_1 + 0x60) = *puVar1;
+  *(undefined4 *)(param_1 + 0x62) = puVar1[1];
+  *(undefined4 *)(param_1 + 100) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x66);
+  *(undefined4 *)(param_1 + 0x66) = *puVar1;
+  *(undefined4 *)(param_1 + 0x68) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x6a) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x6c);
+  *(undefined4 *)(param_1 + 0x6c) = *puVar1;
+  *(undefined4 *)(param_1 + 0x6e) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x70) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x72);
+  *(undefined4 *)(param_1 + 0x72) = *puVar1;
+  *(undefined4 *)(param_1 + 0x74) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x76) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x78);
+  *(undefined4 *)(param_1 + 0x78) = *puVar1;
+  *(undefined4 *)(param_1 + 0x7a) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x7c) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x7e);
+  *(undefined4 *)(param_1 + 0x7e) = *puVar1;
+  *(undefined4 *)(param_1 + 0x80) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x82) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x84);
+  *(undefined4 *)(param_1 + 0x84) = *puVar1;
+  *(undefined4 *)(param_1 + 0x86) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x88) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x8a);
+  *(undefined4 *)(param_1 + 0x8a) = *puVar1;
+  *(undefined4 *)(param_1 + 0x8c) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x8e) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x90);
+  *(undefined4 *)(param_1 + 0x90) = *puVar1;
+  *(undefined4 *)(param_1 + 0x92) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x94) = puVar1[2];
+  puVar1 = (undefined4 *)FUN_00531b90(local_c,param_1 + 0x96);
+  *(undefined4 *)(param_1 + 0x96) = *puVar1;
+  *(undefined4 *)(param_1 + 0x98) = puVar1[1];
+  *(undefined4 *)(param_1 + 0x9a) = puVar1[2];
+  return;
+}
+

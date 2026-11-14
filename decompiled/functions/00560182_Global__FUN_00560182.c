@@ -1,0 +1,72 @@
+// decompiled from GRAPH85emulator.exe
+// function: Global::FUN_00560182
+// entry: 00560182  size: 308
+
+
+char * FUN_00560182(char *param_1)
+
+{
+  char cVar1;
+  size_t _Size;
+  int iVar2;
+  char *pcVar3;
+  bool bVar4;
+  void *local_c;
+  
+  local_c = (void *)0x0;
+  if (DAT_005d562c == 0) {
+    cVar1 = *param_1;
+    pcVar3 = param_1;
+    while (cVar1 != '\0') {
+      cVar1 = *pcVar3;
+      if (('`' < cVar1) && (cVar1 < '{')) {
+        *pcVar3 = cVar1 + -0x20;
+      }
+      pcVar3 = pcVar3 + 1;
+      cVar1 = *pcVar3;
+    }
+  }
+  else {
+    InterlockedIncrement((LONG *)&DAT_005d9594);
+    bVar4 = DAT_005d9590 == 0;
+    if (!bVar4) {
+      InterlockedDecrement((LONG *)&DAT_005d9594);
+      FUN_00558590(0x13);
+    }
+    if (DAT_005d562c == 0) {
+      if (bVar4) {
+        InterlockedDecrement((LONG *)&DAT_005d9594);
+      }
+      else {
+        FUN_005585f1(0x13);
+      }
+      cVar1 = *param_1;
+      pcVar3 = param_1;
+      while (cVar1 != '\0') {
+        cVar1 = *pcVar3;
+        if (('`' < cVar1) && (cVar1 < '{')) {
+          *pcVar3 = cVar1 + -0x20;
+        }
+        pcVar3 = pcVar3 + 1;
+        cVar1 = *pcVar3;
+      }
+    }
+    else {
+      _Size = FUN_0055adda(DAT_005d562c,0x200,param_1,0xffffffff,0,0,0,1);
+      if (((_Size != 0) && (local_c = _malloc(_Size), local_c != (void *)0x0)) &&
+         (iVar2 = FUN_0055adda(DAT_005d562c,0x200,param_1,0xffffffff,local_c,_Size,0,1), iVar2 != 0)
+         ) {
+        FUN_0055a500(param_1,local_c);
+      }
+      if (bVar4) {
+        InterlockedDecrement((LONG *)&DAT_005d9594);
+      }
+      else {
+        FUN_005585f1(0x13);
+      }
+      FUN_00553b50(local_c);
+    }
+  }
+  return param_1;
+}
+

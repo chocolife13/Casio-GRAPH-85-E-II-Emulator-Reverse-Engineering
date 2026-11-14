@@ -1,0 +1,34 @@
+CAPFILE
+CAPFOLDER
+CAPSLOCK
+CASIOWIN
+DISPZOOM
+GRAPH 85 emulator
+gy363.fls
+Gy363.keys
+KEYTABLE
+LCDDISP
+POS_LEFT
+POS_TOP
+--- UTF16 ---
+Automatic Capture Screen
+Capture Screen
+CASIO COMPUTER CO., LTD.
+CASIO GY363
+Copyright (C) 2005 CASIO COMPUTER CO., LTD.
+=GRAPH 85 emulator
+GRAPH 85 emulator
+GRAPH85 emulator
+GRAPH85emulator
+GRAPH85emulator Application
+GRAPH85emulator.EXE
+GRAPH85 emulator for Windows
+NewGraph 
+NewGraph DISP
+NewGraph.Document
+Screen to Folder
+  Zoom*2
+  Zoom*3
+  Zoom*4
+  Zoom*5
+  Zoom*6
